@@ -10,7 +10,6 @@
   <a href="https://github.com/CyberKoalaStudios/Nexus/releases"><img src="https://img.shields.io/github/downloads/CyberKoalastudios/total?style=for-the-badge&color=219bff&label=downloads" alt="Total downloads"></a>
   <img src="https://img.shields.io/badge/platform-ALT_Linux_p11_%7C_Sisyphus-FF3D8A?style=for-the-badge" alt="ALT Linux p11 and Sisyphus">
   <img src="https://img.shields.io/badge/arch-x86__64-FFB020?style=for-the-badge" alt="x86_64 architecture">
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/CyberKoalaStudios/Nexus?style=for-the-badge&color=3DFFA2" alt="License"></a>
 </p>
 
 <p align="center">
