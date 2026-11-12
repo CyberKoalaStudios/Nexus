@@ -302,17 +302,6 @@ Yes — free to use, source available in this repository. See [LICENSE](LICENSE)
 
 Bug reports with the launch log attached are hugely appreciated → [Issues](https://github.com/CyberKoalaStudios/Nexus/issues).
 
-## 🗺️ Roadmap
-
-Ideas, not promises — PRs welcome:
-
-- [X] Automatic cover art
-- [ ] Anti-Cheat integration
-- [ ] Steam library import
-- [ ] Epic Games / GOG integration
-- [ ] More distributions
-- [ ] English UI localization
-- [ ] Cloud save sync
 
 ## 🤝 Contributing
 
