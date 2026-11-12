@@ -31,10 +31,10 @@
 
 One window holds your game library, every installed **Proton version**, an isolated **Wine prefix per game**, and the launch log. Games can live on any disk — including **NTFS** — while prefixes, Proton builds and configs always stay on your Linux system drive.
 
-> 🎯 **Made for:** ALT Linux users with a Windows game library on a second disk.
+>  **Made for:** ALT Linux users with a Windows game library on a second disk.
 > Steam already handles Steam games well — Nexus is for everything else.
 
-## 📑 Contents
+##  Contents
 
 - [Install](#-install)
 - [Screenshots](#-screenshots)
@@ -51,7 +51,7 @@ One window holds your game library, every installed **Proton version**, an isola
 - [Roadmap](#-roadmap)
 - [Contributing](#-contributing)
 
-## 🚀 Install
+## Install
 
 **Requirements:** ALT Linux p11 · x86_64 · glibc ≥ 2.38 · Vulkan 1.3 capable GPU · 512 MB RAM · ~2 GB for prefixes (plus your games).
 
@@ -91,7 +91,7 @@ The script checks dependencies, prepares the data directory and adds the launche
 3. **Pick Proton + tweaks** — choose the build for this game, toggle env vars if needed.
 4. **Press ▶ Launch** — and optionally create a `.desktop` shortcut to start it from your menu or desktop.
 
-## 📸 Screenshots
+## Screenshots
 
 | Game library | Proton manager |
 |---|---|
@@ -101,37 +101,37 @@ The script checks dependencies, prepares the data directory and adds the launche
 
 [![Big Screen mode — Linux game launcher for TV and gamepad](docs/screenshots/linux-big-screen-mode.png)](docs/screenshots/linux-big-screen-mode.png)
 
-## ✨ Features
+##  Features
 
 | | |
 |---|---|
-| 🧰 **Proton manager** | Install, update, verify and remove GE-Proton, Proton-CachyOS, Proton Experimental, Steam Proton, Wine-GE and your own builds — from one panel. |
-| 📦 **One prefix per game** | Isolated Wine/Proton prefixes. No DLL, registry or settings collisions between games. |
-| 💾 **NTFS-safe by design** | Games on NTFS, prefixes + Proton + configs on ext4/btrfs. Unplug the game disk and nothing is lost. |
-| 🎛️ **Per-game launch options** | Environment variables and compatibility flags per title: DXVK, VKD3D, FSR, NVAPI, HDR, esync/fsync. |
-| 🖥️ **Big Screen mode** | Gamepad-friendly interface for a TV or monitor-from-the-couch setup. |
-| 🔗 **Desktop shortcuts** | `.desktop` launchers that go through the same Core and the same prefix. |
-| 🗂️ **Portable configs** | Each game exports to a single JSON file — move your setup between machines with the UUID intact. |
-| 🔌 **Editable sources** | Download sources live in `sources.toml`, not in the code. Add a repo without rebuilding the app. |
+| Proton manager | Install, update, verify and remove GE-Proton, Proton-CachyOS, Proton Experimental, Steam Proton, Wine-GE and your own builds — from one panel. |
+| One prefix per game | Isolated Wine/Proton prefixes. No DLL, registry or settings collisions between games. |
+|  NTFS-safe by design | Games on NTFS, prefixes + Proton + configs on ext4/btrfs. Unplug the game disk and nothing is lost. |
+|  Per-game launch options | Environment variables and compatibility flags per title: DXVK, VKD3D, FSR, NVAPI, HDR, esync/fsync. |
+|  Big Screen mode | Gamepad-friendly interface for a TV or monitor-from-the-couch setup. |
+|  Desktop shortcuts | `.desktop` launchers that go through the same Core and the same prefix. |
+|  Portable configs | Each game exports to a single JSON file — move your setup between machines with the UUID intact. |
+|  Editable sources | Download sources live in `sources.toml`, not in the code. Add a repo without rebuilding the app. |
 
-## 🧰 Proton manager: GE-Proton vs CachyOS vs Wine-GE
+## Proton manager: GE-Proton vs CachyOS vs Wine-GE
 
 | Build | What it is | Good for |
 |---|---|---|
-| **GE-Proton** | GloriousEggroll's Proton fork with extra patches and media fixes | Problem titles, cutscenes, stubborn launchers |
-| **Proton-CachyOS** | CachyOS performance-oriented Proton build | Squeezing out extra frames |
-| **Proton Experimental** | Valve's rolling branch (via Steam) | Newest Valve fixes |
-| **Steam Proton** | Proton shipped with your Steam install | Matching what Steam uses |
-| **Wine-GE** | GloriousEggroll's Wine fork for non-Steam games | Standalone EXEs, installers, repacks |
-| **Custom** | Any build you point at | Testing, patched or vendor builds |
+| GE-Proton | GloriousEggroll's Proton fork with extra patches and media fixes | Problem titles, cutscenes, stubborn launchers |
+| Proton-CachyOS | CachyOS performance-oriented Proton build | Squeezing out extra frames |
+| Proton Experimental | Valve's rolling branch (via Steam) | Newest Valve fixes |
+| Steam Proton | Proton shipped with your Steam install | Matching what Steam uses |
+| Wine-GE | GloriousEggroll's Wine fork for non-Steam games | Standalone EXEs, installers, repacks |
+| Custom | Any build you point at | Testing, patched or vendor builds |
 
 - ★ marks the **default version** used for newly added games; every game can override it.
-- **Integrity check** verifies installed builds against checksums (SHA-512 where the source publishes them).
+- Integrity check verifies installed builds against checksums (SHA-512 where the source publishes them).
 - Removing a Proton build never touches your game prefixes.
 
 Not sure which build a game needs? Check [ProtonDB](https://www.protondb.com/) reports, then switch the version in Nexus and relaunch — the prefix stays the same.
 
-## 🎛️ Per-game settings: DXVK, VKD3D, FSR, HDR
+## Per-game settings: DXVK, VKD3D, FSR, HDR
 
 Toggle environment variables per game instead of editing shell scripts:
 
@@ -146,7 +146,7 @@ Toggle environment variables per game instead of editing shell scripts:
 
 Every toggle is written to the game's config and applied by the Core at launch.
 
-## 💾 Playing games from an NTFS drive on Linux
+##  Playing games from an NTFS drive on Linux
 
 Wine prefixes rely on symlinks, case-sensitive names and POSIX permissions that NTFS doesn't guarantee. Nexus splits the storage:
 
@@ -167,72 +167,13 @@ Recommended NTFS mount (kernel `ntfs3` driver):
 UUID=XXXX-XXXX  /mnt/ntfs-games  ntfs3  uid=1000,gid=1000,rw,nofail,windows_names  0 0
 ```
 
-## 🖥️ Big Screen mode: couch gaming on Linux
+## Big Screen mode: couch gaming on Linux
 
 A separate large-element interface for TVs and gamepad sessions — pick a game, launch, play. Same Core, same prefixes, same settings as the desktop view.
 
-## ⚙️ How it works: one Core, no GUI-side Wine calls
-
-```
-GUI ──► NEXUS CORE ──► Proton / Wine (isolated process)
-             │
-             ├──► nexus.db      (games, prefixes, versions)
-             ├──► nexus.log     (every launch step)
-             └──► JSON / TOML   (portable configs)
 ```
 
-The GUI **never executes Wine or Proton directly**. It sends a request; the Core validates arguments against an allowlist, prepares the prefix and environment, spawns the process, writes the log and handles errors. One execution path, one place responsible for it — and a log you can actually read when something breaks.
-
-## 📂 File locations
-
-```
-~/.local/share/cyberkoala-nexus/
-├── nexus.db              # games, prefixes, Proton versions, settings
-├── proton/               # installed Proton / Wine builds
-├── prefixes/<uuid>/      # one Wine prefix per game
-└── logs/nexus.log        # launch log
-
-~/.config/cyberkoala-nexus/
-└── sources.toml          # download sources
-```
-
-Game config example:
-
-```json
-{
-  "schema": "nexus/game@1",
-  "uuid": "7f3a9c2e-4b1d-4e8a-9f27-6d51c0a8b2e4",
-  "name": "Game1",
-  "exe": "/mnt/ntfs-games/Game1/bin/x64/Game1.exe",
-  "prefix": "~/.local/share/cyberkoala-nexus/prefixes/7f3a9c2e",
-  "proton": "GE-Proton 9-27",
-  "env": { "PROTON_ENABLE_NVAPI": "1", "VKD3D_CONFIG": "dxr" },
-  "shortcuts": { "menu": true, "desktop": true }
-}
-```
-
-## 🔌 Custom Proton sources (`sources.toml`)
-
-```toml
-[ge-proton]
-type = "github-releases"
-repo = "GloriousEggroll/proton-ge-custom"
-asset = "GE-Proton{ver}.tar.gz"
-checksum = "sha512"
-
-[proton-cachyos]
-type = "github-releases"
-repo = "CachyOS/proton-cachyos"
-asset = "proton-cachyos-{ver}-x86_64.tar.zst"
-
-[wine-ge]
-type = "github-releases"
-repo = "GloriousEggroll/wine-ge-custom"
-```
-
-Edit the file and the manager picks up new repositories — no rebuild required.
-
-## ❓ FAQ
+## FAQ
 
 <details>
 <summary><b>Can I run Windows games on ALT Linux?</b></summary>
@@ -288,7 +229,7 @@ Not a target platform right now. Nexus targets x86_64 desktop Linux with ALT Lin
 Yes — free to use, source available in this repository. See [LICENSE](LICENSE).
 </details>
 
-## 🩺 Troubleshooting
+## Troubleshooting
 
 | Symptom | Try this |
 |---|---|
@@ -302,20 +243,11 @@ Yes — free to use, source available in this repository. See [LICENSE](LICENSE)
 
 Bug reports with the launch log attached are hugely appreciated → [Issues](https://github.com/CyberKoalaStudios/Nexus/issues).
 
-
-## 🤝 Contributing
-
-1. Fork → branch (`git checkout -b feature/awesome`)
-2. Commit → push → open a Pull Request
-3. For bugs, attach the launch log and your Proton version
-
-Questions and game-compatibility reports → [Discussions](https://github.com/CyberKoalaStudios/Nexus/discussions).
-
 ## 📄 License
 
 See [LICENSE](LICENSE).
 
-## 🙏 Credits
+## Credits
 
 [GloriousEggroll](https://github.com/GloriousEggroll) (GE-Proton, Wine-GE) · [CachyOS](https://github.com/CachyOS) (Proton-CachyOS) · [Valve](https://www.valvesoftware.com/) (Proton) · [WineHQ](https://www.winehq.org/) · the ALT Linux community.
 
