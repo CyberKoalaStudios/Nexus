@@ -171,8 +171,7 @@ UUID=XXXX-XXXX  /mnt/ntfs-games  ntfs3  uid=1000,gid=1000,rw,nofail,windows_name
 
 A separate large-element interface for TVs and gamepad sessions — pick a game, launch, play. Same Core, same prefixes, same settings as the desktop view.
 
-```
-
+ 
 ## FAQ
 
 <details>
