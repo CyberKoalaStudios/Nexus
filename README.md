@@ -2,12 +2,11 @@
 
 <p align="center">
   <b>Run Windows games on Linux with a real Proton manager, per-game prefixes and NTFS-safe storage.</b><br>
-  Built for ALT Linux (p11 / Sisyphus) · x86_64 · GE-Proton · Proton-CachyOS · Wine-GE · DXVK · VKD3D
+  Built for ALT Linux (p11) · x86_64 · GE-Proton · Proton-CachyOS · Wine-GE · DXVK · VKD3D
 </p>
 
 <p align="center">
   <a href="https://github.com/CyberKoalaStudios/Nexus/releases/latest"><img src="https://img.shields.io/github/v/release/CyberKoalastudios/nexus?style=for-the-badge&label=download&color=6f90ff" alt="Latest CyberKoala Nexus release"></a>
-  <a href="https://github.com/CyberKoalaStudios/Nexus/releases"><img src="https://img.shields.io/github/downloads/CyberKoalastudios/total?style=for-the-badge&color=219bff&label=downloads" alt="Total downloads"></a>
   <img src="https://img.shields.io/badge/platform-ALT_Linux_p11_%7C_Sisyphus-FF3D8A?style=for-the-badge" alt="ALT Linux p11 and Sisyphus">
   <img src="https://img.shields.io/badge/arch-x86__64-FFB020?style=for-the-badge" alt="x86_64 architecture">
 </p>
