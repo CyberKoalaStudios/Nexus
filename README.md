@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/CyberKoalaStudios/Nexus/releases/latest"><img src="https://img.shields.io/github/v/release/CyberKoalastudios/nexus?style=for-the-badge&label=download&color=6f90ff" alt="Latest CyberKoala Nexus release"></a>
+  <a href="https://github.com/CyberKoalaStudios/Nexus/releases/latest"><img src="https://img.shields.io/github/v/release/CyberKoalastudios/Nexus?style=for-the-badge&label=download&color=6f90ff" alt="Latest CyberKoala Nexus release"></a>
   <img src="https://img.shields.io/badge/platform-ALT_Linux_p11_%7C_Sisyphus-FF3D8A?style=for-the-badge" alt="ALT Linux p11 and Sisyphus">
   <img src="https://img.shields.io/badge/arch-x86__64-FFB020?style=for-the-badge" alt="x86_64 architecture">
 </p>
