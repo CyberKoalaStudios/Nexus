@@ -56,11 +56,12 @@ One window holds your game library, every installed **Proton version**, an isola
 
 ### Option A — RPM package (ALT Linux, recommended)
 
-Download `cyberkoala-nexus-0.1.1-alt1.x86_64.rpm` from the [latest release](https://github.com/CyberKoalaStudios/Nexus/releases/latest), then as root (`su -`):
+Download `cyberkoala-nexus-X.X.X-alt1.x86_64.rpm` from the [latest release](https://github.com/CyberKoalaStudios/Nexus/releases/latest), then as root (`su -`):
 
 ```bash
 apt-get update
-apt-get install cyberkoala-nexus-0.1.1-alt1.x86_64.rpm
+# make sure to change X.X.X to latest release version
+apt-get install cyberkoala-nexus-X.X.X-alt1.x86_64.rpm
 ```
 
 Launch it:
@@ -71,7 +72,7 @@ cyberkoala-nexus
 
 The package installs through APT-RPM and updates with the rest of your system.
 
-### Option B — install script (other Linux distributions)
+### Option B — install script 
 
 ```bash
 cd ~/Downloads
@@ -82,6 +83,19 @@ chmod +x nexusinstall.sh
 The script checks dependencies, prepares the data directory and adds the launcher to your application menu. It will ask for `sudo` when installing system packages.
 
 > ALT Linux is the primary tested target. On other distros the script path is provided as-is — reports from Fedora / Arch / Ubuntu users are welcome in [Issues](https://github.com/CyberKoalaStudios/Nexus/issues).
+
+### Option C — AppImage (other Linux distributions)
+
+Download `CyberKoalaNexus-X.X.X-x86_64.AppImage` from the [latest release](https://github.com/CyberKoalaStudios/Nexus/releases/latest), then:
+
+```bash
+cd ~/Downloads
+# make sure to change X.X.X to latest release version
+chmod +x CyberKoalaNexus-X.X.X-x86_64.AppImage
+# launch it
+./CyberKoalaNexus-X.X.X-x86_64.AppImage
+```
+
 
 ### First launch in 4 steps
 
