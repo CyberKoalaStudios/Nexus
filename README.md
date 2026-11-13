@@ -10,6 +10,7 @@
   <img src="https://img.shields.io/badge/platform-ALT_Linux_p11_%7C_Sisyphus-FF3D8A?style=for-the-badge" alt="ALT Linux p11">
   <img src="https://img.shields.io/badge/arch-x86__64-FFB020?style=for-the-badge" alt="x86_64 architecture">
 </p>
+ 
 
 <p align="center">
   <a href="#-install">Install</a> ·
@@ -266,6 +267,9 @@ See [LICENSE](LICENSE).
 Proton™ is a trademark of Valve Corporation. This project is not affiliated with or endorsed by Valve. Game titles are mentioned as examples; all trademarks belong to their owners.
 
 ---
+
+
+<a href="https://www.producthunt.com/products/cyberkoala-nexus?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-cyberkoala-nexus" target="_blank" rel="noopener noreferrer"><img alt="CyberKoala Nexus - Windows game launcher for Linux | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1315560&amp;theme=neutral&amp;t=1794589498762"></a>
 
 <p align="center">
   <b>Play your Windows library on Linux.</b><br>
