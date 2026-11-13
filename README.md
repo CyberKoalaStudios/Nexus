@@ -222,9 +222,9 @@ Not a target platform right now. Nexus targets x86_64 desktop Linux with ALT Lin
 </details>
 
 <details>
-<summary><b>Is it free and open source?</b></summary>
+<summary><b>Is it free?</b></summary>
 
-Yes — free to use, source available in this repository. See [LICENSE](LICENSE).
+Yes — free to use. See [LICENSE](LICENSE).
 </details>
 
 ## Troubleshooting
