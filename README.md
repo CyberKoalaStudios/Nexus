@@ -256,7 +256,7 @@ Proton™ is a trademark of Valve Corporation. This project is not affiliated wi
 <p align="center">
   <b>Play your Windows library on Linux.</b><br>
   <a href="https://github.com/CyberKoalaStudios/Nexus/releases/latest">⬇ Download CyberKoala Nexus</a> ·
-  <a href="https://nexus.cyberkoala.ru">🌐 Nexus/nexus</a>
+  <a href="https://nexus.cyberkoala.ru">🌐 Nexus</a>
 </p>
 
 <p align="center">⭐ Star the repo if it saved you an evening of winecfg.</p>
