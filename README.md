@@ -15,7 +15,6 @@
 <p align="center">
   <a href="#-install">Install</a> ·
   <a href="#-screenshots">Screenshots</a> ·
-  <a href="#-proton-manager-ge-proton-vs-cachyos-vs-wine-ge">Proton versions</a> ·
   <a href="#-playing-games-from-an-ntfs-drive-on-linux">NTFS</a> ·
   <a href="#-faq">FAQ</a> ·
 </p>
@@ -43,7 +42,6 @@ One window holds your game library, every installed **Proton version**, an isola
 - [Per-game settings: DXVK, VKD3D, FSR, HDR](#-per-game-settings-dxvk-vkd3d-fsr-hdr)
 - [Playing games from an NTFS drive on Linux](#-playing-games-from-an-ntfs-drive-on-linux)
 - [Big Screen mode](#-big-screen-mode-couch-gaming-on-linux)
-- [How it works](#-how-it-works-one-core-no-gui-side-wine-calls)
 - [File locations](#-file-locations)
 - [Custom Proton sources](#-custom-proton-sources-sourcestoml)
 - [FAQ](#-faq)
