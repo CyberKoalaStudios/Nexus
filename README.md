@@ -11,14 +11,6 @@
   <img src="https://img.shields.io/badge/arch-x86__64-FFB020?style=for-the-badge" alt="x86_64 architecture">
 </p>
  
-
-<p align="center">
-  <a href="#-install">Install</a> ·
-  <a href="#-screenshots">Screenshots</a> ·
-  <a href="#-playing-games-from-an-ntfs-drive-on-linux">NTFS</a> ·
-  <a href="#-faq">FAQ</a> ·
-</p>
-
 <p align="center">
   <img src="docs/screenshots/linux-game-launcher-library.png" width="900"
        alt="CyberKoala Nexus game library — Windows game launcher for Linux showing Proton version and disk filesystem per game">
@@ -33,21 +25,6 @@ One window holds your game library, every installed **Proton version**, an isola
 >  **Made for:** ALT Linux users with a Windows game library on a second disk.
 > Steam already handles Steam games well — Nexus is for everything else.
 
-##  Contents
-
-- [Install](#-install)
-- [Screenshots](#-screenshots)
-- [Features](#-features)
-- [Proton manager: GE-Proton vs CachyOS vs Wine-GE](#-proton-manager-ge-proton-vs-cachyos-vs-wine-ge)
-- [Per-game settings: DXVK, VKD3D, FSR, HDR](#-per-game-settings-dxvk-vkd3d-fsr-hdr)
-- [Playing games from an NTFS drive on Linux](#-playing-games-from-an-ntfs-drive-on-linux)
-- [Big Screen mode](#-big-screen-mode-couch-gaming-on-linux)
-- [File locations](#-file-locations)
-- [Custom Proton sources](#-custom-proton-sources-sourcestoml)
-- [FAQ](#-faq)
-- [Troubleshooting](#-troubleshooting)
-- [Roadmap](#-roadmap)
-- [Contributing](#-contributing)
 
 ## Install
 
